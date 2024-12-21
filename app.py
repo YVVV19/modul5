@@ -14,6 +14,7 @@ async def get_data(
         return{"Hello":client,
             "user_id:":user_id,
             "time:":timestamp,}
-    return{"Hello":client,
+    else:
+        return{"Hello":client,
             "user_id:":user_id,
             "time:":timestamp,}
