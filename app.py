@@ -11,9 +11,6 @@ async def get_data(
     ):
     if not timestamp:
         timestamp == datetime.timestamp()
-        return{"Hello":client,
-            "user_id:":user_id,
-            "time:":timestamp,}
     return{"Hello":client,
         "user_id:":user_id,
         "time:":timestamp,}
